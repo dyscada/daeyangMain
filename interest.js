@@ -45,6 +45,7 @@ var cubeMaterials = [
   }),
   new THREE.MeshBasicMaterial({
     color: 0xffffff,
+    map: new THREE.TextureLoader().load("imgs/5-129-image.png"),
     side: THREE.DoubleSide, //Back Side
   }),
 ];
