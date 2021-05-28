@@ -153,7 +153,7 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/background.png") center/cover no-repeat;
+  background: url("imgs/Background_Earth.png") center/cover no-repeat;
   padding: 20px;
   padding-top: 120px;
   text-align: center;
@@ -164,36 +164,6 @@ p {
   height: 270px;
   border-radius: 20%;
   border: 2px solid var(--color-light-white);
-}
-.Yeonu__avartar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light-white);
-}
-.Yeonu__avartar:hover {
-  background-color: var(--color-blue);
-  color: var(--color-dark-white);
-}
-.Yeonjun__avartar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light-white);
-}
-.Yeonjun__avartar:hover {
-  background-color: var(--color-blue);
-  color: var(--color-dark-white);
-}
-.taeyun__avartar {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid var(--color-light-white);
-}
-.taeyun__avartar:hover {
-  background-color: var(--color-blue);
-  color: var(--color-dark-white);
 }
 
 .home__title,
@@ -227,6 +197,12 @@ p {
 }
 
 /* About */
+#about {
+  background: url("imgs/background.png") center/cover no-repeat;
+  padding: 20px;
+  padding-top: 120px;
+  text-align: center;
+}
 
 .about__majors {
   display: flex;
@@ -394,6 +370,36 @@ p {
 .contact__links i:hover {
   transform: scale(1.2);
   color: var(--color-pink);
+}
+.Yeonu__avartar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+.Yeonu__avartar:hover {
+  background-color: var(--color-blue);
+  color: var(--color-dark-white);
+}
+.Yeonjun__avartar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+.Yeonjun__avartar:hover {
+  background-color: var(--color-blue);
+  color: var(--color-dark-white);
+}
+.taeyun__avartar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+.taeyun__avartar:hover {
+  background-color: var(--color-blue);
+  color: var(--color-dark-white);
 }
 
 .arrow-up {
